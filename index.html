@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Portafolio Industrial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="contact-form">
+            <h2>Enviar Mensaje</h2>
+            <div class="input-group">
+                <label>Nombre Completo</label>
+                <input type="text" name="nombre" placeholder="Ej. Juan Pérez" required>
+            </div>
+            <div class="input-group">
+                <label>Correo Electrónico</label>
+                <input type="email" name="email" placeholder="correo@ejemplo.com" required>
+            </div>
+            <div class="input-group">
+                <label>Mensaje</label>
+                <textarea name="mensaje" rows="4" placeholder="Escribe tu consulta aquí..."></textarea>
+            </div>
+            <button type="submit" id="submit-btn">Enviar Datos</button>
+        </form>
+        <div id="response-msg" class="hidden">¡Datos guardados con éxito en Google Sheets!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

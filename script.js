@@ -1,5 +1,6 @@
 // REEMPLAZA ESTA URL con la que copiaste en el Paso 1
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzKCHbtoMrhcI8PHu020ZLMGtOZkl8dZxJnXRIUPwy8d8cLowqfbfh8-XnGCYxp4YBIzw/exec';
+//const scriptURL = 'https://script.google.com/macros/s/AKfycbzKCHbtoMrhcI8PHu020ZLMGtOZkl8dZxJnXRIUPwy8d8cLowqfbfh8-XnGCYxp4YBIzw/exec';
+const scriptURL ='https://script.google.com/macros/s/AKfycbzQGO_Muhn6QN3w4hi8m_lJV-MgY3ms8YQbrf95RhJrulT8cBKUHv6QMHEBNeJRrYcx7Q/exec';
 const form = document.getElementById('contact-form');
 const btn = document.getElementById('submit-btn');
 const msg = document.getElementById('response-msg');
